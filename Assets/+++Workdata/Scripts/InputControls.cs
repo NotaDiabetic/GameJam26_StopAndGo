@@ -7,6 +7,8 @@ public class InputControls : MonoBehaviour
     private InputAction _move;
     private InputAction _jump;
 
+    [SerializeField] private PlayerControls player;
+
     private void Awake()
     {
         _inputActions = new InputSystem_Actions();
@@ -42,10 +44,17 @@ public class InputControls : MonoBehaviour
     }
     private void Move(InputAction.CallbackContext ctx)
     {
-        
+        player.horizontal = ctx.ReadValue<Vector2>().x;
     }
     private void Jump(InputAction.CallbackContext ctx)
     {
-
+        if (ctx.performed && player.IsGrounded())
+        {
+            player.rb.linearVelocity = new Vector2(player.rb.linearVelocity.x, player.jumpingPower);
+        }
+        if (ctx.canceled && player.rb.linearVelocity.y > 0f)
+        {
+            player.rb.linearVelocity = new Vector2(player.rb.linearVelocity.x, player.rb.linearVelocity.y * 0.5f);
+        }
     }
 }
