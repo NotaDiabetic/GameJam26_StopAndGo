@@ -104,6 +104,11 @@ public class PlayerControls : MonoBehaviour
         {
             Win();
         }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         if (collision.gameObject.CompareTag("Checkpoint"))
         {
             Debug.Log("Waga Baga Bobo");
