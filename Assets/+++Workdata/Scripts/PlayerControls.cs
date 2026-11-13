@@ -2,6 +2,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerControls : MonoBehaviour
@@ -30,6 +31,8 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] private Animator anim;
 
+    [SerializeField] private Image bar;
+
 
     private void Awake()
     {
@@ -47,6 +50,8 @@ public class PlayerControls : MonoBehaviour
     {
 
         timer -= timerSpeed * Time.deltaTime;
+
+        bar.fillAmount = timer / timeLimit;
         if (timer <= 0)
         {
             StartCoroutine(Die());
