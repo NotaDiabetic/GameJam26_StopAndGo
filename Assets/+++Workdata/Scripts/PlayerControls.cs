@@ -12,6 +12,8 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] public float jumpingPower;
     [SerializeField] private float timeLimit;
 
+    [SerializeField] private float checkPointGain;
+
     public float horizontal;
     public bool movementBlocked = false;
     private bool facingRight = true;
@@ -25,6 +27,8 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] private Sprite[] playerState;
     [SerializeField] private SpriteRenderer playerSprite;
+
+    [SerializeField] private Animator anim;
 
 
     private void Awake()
@@ -50,17 +54,20 @@ public class PlayerControls : MonoBehaviour
         }
         else if (timer <= timeLimit * 0.33f)
         {
-            playerSprite.sprite = playerState[2];
+            anim.SetTrigger("Low");
+            //playerSprite.sprite = playerState[2];
             Debug.Log("33%");
         }
         else if(timer <= timeLimit * 0.66f && playerSprite != playerState[1])
         {
-            playerSprite.sprite = playerState[1];
+            anim.SetTrigger("Partial");
+            //playerSprite.sprite = playerState[1];
             Debug.Log("66%");
         }
         else
         {
-            playerSprite.sprite = playerState[0];
+            anim.SetTrigger("Full");
+            //playerSprite.sprite = playerState[0];
         }
 
 
@@ -113,7 +120,7 @@ public class PlayerControls : MonoBehaviour
         {
             Debug.Log("Waga Baga Bobo");
             Destroy(collision.gameObject);
-            timer += 30f;
+            timer += checkPointGain;
             if (timer >= timeLimit)
             {
                 timer = timeLimit;
@@ -128,9 +135,10 @@ public class PlayerControls : MonoBehaviour
 
     private IEnumerator Die()
     {
+        anim.SetTrigger("dead");
         timer = 0;
         movementBlocked = true;
-        playerSprite.sprite = playerState[3];
+        //playerSprite.sprite = playerState[3];
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

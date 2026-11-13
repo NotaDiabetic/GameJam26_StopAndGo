@@ -1130,6 +1130,7 @@ GameObject:
   - component: {fileID: 1202202696}
   - component: {fileID: 1202202695}
   - component: {fileID: 1202202693}
+  - component: {fileID: 1202202698}
   m_Layer: 0
   m_Name: BEAN
   m_TagString: Player
@@ -1167,6 +1168,7 @@ MonoBehaviour:
   - {fileID: -3043454408864867990, guid: f8fcd8b80bb23f14aaee87bc329cf722, type: 3}
   - {fileID: -740734769443048516, guid: f8fcd8b80bb23f14aaee87bc329cf722, type: 3}
   playerSprite: {fileID: 0}
+  anim: {fileID: 1202202698}
 --- !u!4 &1202202694
 Transform:
   m_ObjectHideFlags: 0
@@ -1309,6 +1311,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!95 &1202202698
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202202692}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8ae0c30107b25014ab67181912abc01c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1307438222
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,7 +2309,6 @@ SceneRoots:
   - {fileID: 273429669}
   - {fileID: 819351776}
   - {fileID: 647708055}
-  - {fileID: 1202202694}
   - {fileID: 1307438224}
   - {fileID: 87251495}
   - {fileID: 923774100}
@@ -2293,3 +2316,4 @@ SceneRoots:
   - {fileID: 89154909}
   - {fileID: 969380083}
   - {fileID: 1366694366}
+  - {fileID: 1202202694}
