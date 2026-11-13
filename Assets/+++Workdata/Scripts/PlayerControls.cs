@@ -32,6 +32,7 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] private Image bar;
     [SerializeField] private GameObject Win;
     [SerializeField] private GameObject Lose;
+    [SerializeField] private GameObject fire;
 
 
     private void Awake()
@@ -80,12 +81,14 @@ public class PlayerControls : MonoBehaviour
         if (horizontal == 0 && rb.linearVelocity.y == 0)
         {
             light.Flare();
+            fire.SetActive(true);
             timerSpeed = 1f;
 
         }
         else
         {
             light.Dim();
+            fire.SetActive(false);
             timerSpeed = 0.5f;
         }
 
