@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 45d9945bfc4229141add9fb084c361af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 725061989127409627
+    second: Platform_Bad_Book_Break_SSheet_0
+  - first:
+      213: -50234722272935868
+    second: Platform_Bad_Book_Break_SSheet_1
+  - first:
+      213: 772751966147687805
+    second: Platform_Bad_Book_Break_SSheet_2
+  - first:
+      213: -8433903510867370054
+    second: Platform_Bad_Book_Break_SSheet_3
+  - first:
+      213: 3065248615517991346
+    second: Platform_Bad_Book_Break_SSheet_4
+  - first:
+      213: -5223715736705599117
+    second: Platform_Bad_Book_Break_SSheet_5
+  - first:
+      213: -8932887283371014814
+    second: Platform_Bad_Book_Break_SSheet_6
+  - first:
+      213: -5198608041201579239
+    second: Platform_Bad_Book_Break_SSheet_7
+  - first:
+      213: 8881969238565200259
+    second: Platform_Bad_Book_Break_SSheet_8
+  - first:
+      213: 7334766428323883886
+    second: Platform_Bad_Book_Break_SSheet_9
+  - first:
+      213: -2548214576669936193
+    second: Platform_Bad_Book_Break_SSheet_10
+  - first:
+      213: -8026358605939692380
+    second: Platform_Bad_Book_Break_SSheet_11
+  - first:
+      213: 8073891535531642272
+    second: Platform_Bad_Book_Break_SSheet_12
+  - first:
+      213: -6070847649555456287
+    second: Platform_Bad_Book_Break_SSheet_13
+  - first:
+      213: -690351282767890495
+    second: Platform_Bad_Book_Break_SSheet_14
+  - first:
+      213: 8583315164960804870
+    second: Platform_Bad_Book_Break_SSheet_15
+  - first:
+      213: 2192036509937018041
+    second: Platform_Bad_Book_Break_SSheet_16
+  - first:
+      213: -8354314090137907915
+    second: Platform_Bad_Book_Break_SSheet_17
+  - first:
+      213: -6831334928141643980
+    second: Platform_Bad_Book_Break_SSheet_18
+  - first:
+      213: 4014541509939641819
+    second: Platform_Bad_Book_Break_SSheet_19
+  - first:
+      213: 1912810202004335475
+    second: Platform_Bad_Book_Break_SSheet_20
+  - first:
+      213: -4831893339044920578
+    second: Platform_Bad_Book_Break_SSheet_21
+  - first:
+      213: 3167385939071847985
+    second: Platform_Bad_Book_Break_SSheet_22
+  - first:
+      213: 7983324780811565606
+    second: Platform_Bad_Book_Break_SSheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 201
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfc31e9900ff0a00800000000000000
+      internalID: 725061989127409627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 201
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ba4be84335ac560800000000000000
+      internalID: 7334766428323883886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 201
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5bd12f75ce2acd0800000000000000
+      internalID: -2548214576669936193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 201
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad856203993c0070800000000000000
+      internalID: 8073891535531642272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 201
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee5bba3a3400cba0800000000000000
+      internalID: -6070847649555456287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 153
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2c6adcb9aa1fcb0800000000000000
+      internalID: -4831893339044920578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_23
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 153
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ab8d637977ace60800000000000000
+      internalID: 7983324780811565606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 153
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4389c3560756cd640aca8e8480170bda
+      internalID: 1335264540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 153
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ed603899010c347809f61fe1e96bc3
+      internalID: 1527031605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_27
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 153
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007f544e62584ea4abbf25afeb7e3915
+      internalID: -1501432070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 105
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ef31a85146fef47865a340e662e587
+      internalID: 2120752701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_36
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 104
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b112facb2af4c949af298c5cc63dbf1
+      internalID: 866407111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_38
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 103
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9a672e4732d3b43a55fe4186ae32a0
+      internalID: -617459131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_40
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 102
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bfe699f43c01743927d9a1fe434a6d
+      internalID: 528955620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_41
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 102
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3582420f3657e348b815b27a082c465
+      internalID: 1156948631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 55
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a806ad9bc43704f4b9ba5685f97ac057
+      internalID: -59214698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_51
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 56
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c7f493e67349f4492ad7b5a0933028
+      internalID: -681115960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_52
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 57
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09383587d11c2f641bdf97231854dd05
+      internalID: -547376007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_53
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 57
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81ff98f3da8e97428bf8fc488d77877
+      internalID: -1868854366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Bad_Book_Break_SSheet_54
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 57
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d9c22bbdb13154c820265350c1283f
+      internalID: 1528378402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ca5223221200735438cdfc2ee47ab8d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":8.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Platform_Bad_Book_Break_SSheet_0: 725061989127409627
+      Platform_Bad_Book_Break_SSheet_1: -50234722272935868
+      Platform_Bad_Book_Break_SSheet_10: -2548214576669936193
+      Platform_Bad_Book_Break_SSheet_11: -8026358605939692380
+      Platform_Bad_Book_Break_SSheet_12: 8073891535531642272
+      Platform_Bad_Book_Break_SSheet_13: -6070847649555456287
+      Platform_Bad_Book_Break_SSheet_14: -690351282767890495
+      Platform_Bad_Book_Break_SSheet_15: 8583315164960804870
+      Platform_Bad_Book_Break_SSheet_16: 2192036509937018041
+      Platform_Bad_Book_Break_SSheet_17: -8354314090137907915
+      Platform_Bad_Book_Break_SSheet_18: -6831334928141643980
+      Platform_Bad_Book_Break_SSheet_19: 4014541509939641819
+      Platform_Bad_Book_Break_SSheet_2: 772751966147687805
+      Platform_Bad_Book_Break_SSheet_20: 1912810202004335475
+      Platform_Bad_Book_Break_SSheet_21: -4831893339044920578
+      Platform_Bad_Book_Break_SSheet_22: 3167385939071847985
+      Platform_Bad_Book_Break_SSheet_23: 7983324780811565606
+      Platform_Bad_Book_Break_SSheet_24: -163935354
+      Platform_Bad_Book_Break_SSheet_25: 1335264540
+      Platform_Bad_Book_Break_SSheet_26: 1527031605
+      Platform_Bad_Book_Break_SSheet_27: -1501432070
+      Platform_Bad_Book_Break_SSheet_28: 1486137204
+      Platform_Bad_Book_Break_SSheet_29: -506451406
+      Platform_Bad_Book_Break_SSheet_3: -8433903510867370054
+      Platform_Bad_Book_Break_SSheet_30: -740659625
+      Platform_Bad_Book_Break_SSheet_31: -292869195
+      Platform_Bad_Book_Break_SSheet_32: 1849562103
+      Platform_Bad_Book_Break_SSheet_33: -1372400563
+      Platform_Bad_Book_Break_SSheet_34: -2094175330
+      Platform_Bad_Book_Break_SSheet_35: 2120752701
+      Platform_Bad_Book_Break_SSheet_36: 866407111
+      Platform_Bad_Book_Break_SSheet_37: 504304993
+      Platform_Bad_Book_Break_SSheet_38: -617459131
+      Platform_Bad_Book_Break_SSheet_39: -105760622
+      Platform_Bad_Book_Break_SSheet_4: 3065248615517991346
+      Platform_Bad_Book_Break_SSheet_40: 528955620
+      Platform_Bad_Book_Break_SSheet_41: 1156948631
+      Platform_Bad_Book_Break_SSheet_42: 684831997
+      Platform_Bad_Book_Break_SSheet_43: -1362776722
+      Platform_Bad_Book_Break_SSheet_44: -875917779
+      Platform_Bad_Book_Break_SSheet_45: 1150633247
+      Platform_Bad_Book_Break_SSheet_46: -59214698
+      Platform_Bad_Book_Break_SSheet_47: -1878430723
+      Platform_Bad_Book_Break_SSheet_48: 1738439898
+      Platform_Bad_Book_Break_SSheet_49: -632183501
+      Platform_Bad_Book_Break_SSheet_5: -5223715736705599117
+      Platform_Bad_Book_Break_SSheet_50: -180899904
+      Platform_Bad_Book_Break_SSheet_51: -681115960
+      Platform_Bad_Book_Break_SSheet_52: -547376007
+      Platform_Bad_Book_Break_SSheet_53: -1868854366
+      Platform_Bad_Book_Break_SSheet_54: 1528378402
+      Platform_Bad_Book_Break_SSheet_55: -1025633322
+      Platform_Bad_Book_Break_SSheet_6: -8932887283371014814
+      Platform_Bad_Book_Break_SSheet_7: -5198608041201579239
+      Platform_Bad_Book_Break_SSheet_8: 8881969238565200259
+      Platform_Bad_Book_Break_SSheet_9: 7334766428323883886
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
