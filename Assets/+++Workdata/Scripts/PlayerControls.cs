@@ -1,6 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -18,7 +16,7 @@ public class PlayerControls : MonoBehaviour
     public float horizontal;
     public bool movementBlocked = false;
     private bool facingRight = true;
-    
+
     [SerializeField] private float timer;
     private float timerSpeed;
 
@@ -32,6 +30,8 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] private Animator anim;
 
     [SerializeField] private Image bar;
+    [SerializeField] private GameObject Win;
+    [SerializeField] private GameObject Lose;
 
 
     private void Awake()
@@ -114,7 +114,7 @@ public class PlayerControls : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Win"))
         {
-            Win();
+            WinGame();
         }
         
     }
@@ -131,11 +131,19 @@ public class PlayerControls : MonoBehaviour
                 timer = timeLimit;
             }
         }
+        if (collision.gameObject.CompareTag("Hazard"))
+        {
+            StartCoroutine(Die());
+        }
     }
 
-    private void Win()
+    private IEnumerator WinGame()
     {
         Debug.Log("You win!");
+        movementBlocked = true;
+        Win.SetActive(true);
+        yield return new WaitForSeconds(10f);
+        SceneManager.LoadScene("MainMenu");
     }
 
     private IEnumerator Die()
@@ -143,6 +151,7 @@ public class PlayerControls : MonoBehaviour
         anim.SetTrigger("dead");
         timer = 0;
         movementBlocked = true;
+        Lose.SetActive(true);
         //playerSprite.sprite = playerState[3];
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
