@@ -48,7 +48,7 @@ public class InputControls : MonoBehaviour
     }
     private void Jump(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed && player.IsGrounded())
+        if (ctx.performed && player.IsGrounded() && player.movementBlocked == false)
         {
             player.rb.linearVelocity = new Vector2(player.rb.linearVelocity.x, player.jumpingPower);
         }
